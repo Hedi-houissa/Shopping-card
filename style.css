@@ -1,0 +1,40 @@
+.carousel-inner div img{
+    height: 400px;
+}
+
+.shopping-card{
+    margin: 3% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:gainsboro;
+}
+.price {
+    margin: 2%;
+    padding: 1%;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+}
+.products{
+    width: 90%;
+   background-color: violet;
+    margin: 1% 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.prod{
+    width: 30%;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    margin: 1% 3%;
+    padding: 2%;
+    text-align: center;
+}
+
+.prod div img {
+    height: 150px;
+    width: 70%;
+}
